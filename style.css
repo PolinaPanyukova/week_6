@@ -1,0 +1,318 @@
+body {
+    background: #090f1d;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 111px 28px 111px;
+    align-items: center;
+    
+}
+
+.navbar_element {
+    text-decoration:none;
+    color: rgba(255, 255, 253, 0.72);
+    padding-right: 40px;
+}
+
+.navbar {    
+    font-family:"Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+.navbar_marketplace {
+    text-decoration: underline;
+text-decoration-color: #D6EF0E;
+color: rgba(255, 255, 253, 0.72);
+    padding-right: 40px;
+}
+.btn_header {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 143px;
+    text-decoration: none;
+    color: white;
+    background: #D6EF0E;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn_header:hover {
+    background: #D6EF0E;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.first_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 92px 111px;
+    width: 1512px;
+    height: 821px;
+    box-sizing: border-box;
+
+}
+.first_part_left_txt_btn {
+    font-family:"Inter", sans-serif;
+    color: #fff;
+    margin-right: 111px;
+   
+}
+h1 {
+    font-family: 'Canela Trial', sans-serif;
+    margin: 0;
+font-weight: 500;
+font-size: 64px;
+line-height: 120%;
+}
+h2 {
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+.first_part_left_stats {
+    display: flex;
+    color: #fff;
+    margin-top:  72px;
+}
+.btn_first_part_left {
+
+    border: none;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 178px;
+    text-decoration: none;
+    color: white;
+    background: #D6EF0E;
+}
+.btn_first_part_right {
+    text-decoration:none;
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #fffffd;
+padding-left: 36px;
+}
+.green_text {
+    color: #d6ef0e;
+}
+.first_part_right {
+   position: relative; 
+}
+.foto_first_part_1 {
+    
+    padding-left: 112px;
+    border-radius: 24px;
+    z-index: 2;
+}
+.foto_first_part_2 {
+    position: absolute;
+    z-index: 3;
+    width: 171.5px;
+   left: 60px;
+   top: 223px;
+   height: 171.5px;
+   transform: rotate(-90deg);
+}
+.foto_first_part_3 {
+    position: absolute;
+    z-index: 0;
+    width: 631px;
+height: 458px;
+filter: blur(400px);
+background: #1f413d;
+top: 249px;
+left: 550px;   
+}
+.first_part_on_img {
+    position: absolute;
+    z-index: 2;
+    border-top: 1px solid #d6ef0e;
+    border-radius: 16px;
+    padding: 20px;
+    width: 304px;
+    height: 169px;
+    box-shadow: 0 9px 50px 0 rgba(23, 36, 65, 0.04);
+    background: #131e3a;
+    top: 468px;
+    left: 271px;
+    
+}
+.first_part_on_img_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 264px;
+height: 53px;
+gap: 105px;
+}
+.red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 20px;
+}
+
+.first_part_on_img_text div p {
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+.btn_first_on_img {
+    background: #131e3a;
+    border: 1px solid #d6ef0e;
+border-radius: 8px;
+padding: 12px 40px;
+width: 264px;
+height: 52px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #d6ef0e;
+}
+.text_on_img {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #fffffd;
+}
+.one_stat {
+    margin-right: 92px;
+    border-right:2px solid #D6EF0E;
+   padding-right: 8px;
+}
+p {
+    margin: 0;
+}
+
+.stat_text_top {
+    font-family: 'Canela Trial', sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 120%;
+}
+.two_stat {
+    margin-right: 92px;
+    border-right:2px solid #D6EF0E;
+   padding-right: 8px;
+}
+.stat_text_bottom {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.second_part_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.second_part_top_text {
+    font-family: 'Canela Trial', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fffffd;
+}
+.btn_second_part {
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 134px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+    background: #d6ef0e;
+}
+.second_part {
+    padding: 92px 111px;
+    width: 1512px;
+    height: 862px;
+box-sizing: border-box;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 64px;
+}
+.one_cards {
+    text-align: center;
+    border-top: 1px solid #d6ef0e;
+    border-radius: 28px;
+    padding: 20px;
+    width: 410px;
+    height: 498px;
+    background: #131e3a;
+    box-sizing: border-box;
+}
+.frame_1_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.frame_1_1 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fffffd;
+}
+.frame_1 {
+    padding: 20px;
+}
+.frame_1_1_1 {
+    display: flex;
+}
+.frame_1_1_1 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fffffd;
+}
+.btn_frame_1_2 {
+    border: 1px solid #d6ef0e;
+    border-radius: 8px;
+    padding: 12px 40px;
+    width: 168px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #d6ef0e;
+    background: #131e3a;
+}
+.frame_1_2 {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.frame_1_2_left_clock {
+    display: flex;
+}
+.frame_1_2_left_text {
+    text-align: start;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #838382;
+}
+.frame_1_2_left_clock_text {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+color: #fffffd;
+padding-left: 12px;
+}
